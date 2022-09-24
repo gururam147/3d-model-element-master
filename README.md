@@ -13,6 +13,10 @@ This is a experimental custom element that allows 3D objects (currently, OBJ and
 
 Or leave it empty and use the [link text itself]
 
+* [Transform tests](https://keithclark.co.uk/labs/3d-model-custom-element/examples/tests/) - A set of rendering test cases.
+* 
+* [3D Scene](https://keithclark.co.uk/labs/3d-model-custom-element/examples/3d-scene/) - An example of mixing standard HTML elements and models to create a 3D scene.
+
 [Hello world]([https://www.google.com](http://127.0.0.1:5500/examples/hello-world/index.html))
 Hello World - A barebones example.
 Transform tests - A set of rendering test cases.
