@@ -2,7 +2,7 @@
 This is a experimental custom element that allows 3D objects (currently, OBJ and gLTF format) to be loaded into a document and rendered inline, just like any other external resource. Additionally, any CSS transforms applied to the element will be passed on to the 3D model, allowing complex objects to be placed and maniplulated using just CSS.
 ![preview (1)](https://user-images.githubusercontent.com/65006133/192099558-aac99fd1-da36-496d-a059-2eeb3cf9f1a9.png)
 **Examples**
-[I'm an inline-style link with title](https://www.google.com &quot;Google's Homepage&quot;)
+[I'm an inline-style link with title](https://[www.google.com &quot;Google's](http://127.0.0.1:5500/examples/hello-world/index.html Homepage&quot;)
 
 [Hello world]([https://www.google.com](http://127.0.0.1:5500/examples/hello-world/index.html))
 Hello World - A barebones example.
