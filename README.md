@@ -4,9 +4,9 @@ This is a experimental custom element that allows 3D objects (currently, OBJ and
 
 ## Examples
 
-* [Hello World](https://keithclark.co.uk/labs/3d-model-custom-element/examples/hello-world/) - A barebones example.
-* [Transform tests](https://keithclark.co.uk/labs/3d-model-custom-element/examples/tests/) - A set of rendering test cases.
-* [3D Scene](https://keithclark.co.uk/labs/3d-model-custom-element/examples/3d-scene/) - An example of mixing standard HTML elements and models to create a 3D scene.
+* [Hello World](http://127.0.0.1:5500/examples/hello-world/index.html) - A barebones example.
+* [Transform tests](http://127.0.0.1:5500/examples/tests/index.html) - A set of rendering test cases.
+* [3D Scene](http://127.0.0.1:5500/examples/3d-scene/index.html) - An example of mixing standard HTML elements and models to create a 3D scene.
 
 
 ## Limitations
@@ -19,7 +19,7 @@ This is a experimental custom element that allows 3D objects (currently, OBJ and
 
 ## Getting started
 
-To use this custom element you'll need to include the [three.js](https://threejs.org/) library (r102+), its accompanying [OBJ loader](https://github.com/mrdoob/three.js/blob/master/examples/js/loaders/OBJLoader.js) and/or [gLTF loader](https://github.com/mrdoob/three.js/blob/master/examples/js/loaders/GLTFLoader.js) along with the [custom element script](https://github.com/keithclark/3d-model-element/blob/master/dist/model-element.min.js):
+To use this custom element you'll need to include the [three.js](https://threejs.org/) library (r102+), its accompanying [OBJ loader](https://github.com/mrdoob/three.js/blob/master/examples/js/loaders/OBJLoader.js) 
 
 ```html
 <script src="js/three.min.js"></script>
@@ -27,7 +27,6 @@ To use this custom element you'll need to include the [three.js](https://threejs
 <script src="js/model-element.min.js"></script>
 ```
 
-To bolster up browser support, you can also include a [web components polyfill](https://github.com/WebComponents/webcomponentsjs).
 
 ### Using the `<x-model>` element
 Adding a model to a page is as simple as adding the element and setting its `src` attribute:
